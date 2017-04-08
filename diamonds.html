@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">-->
+		<!--引入鼠标闪烁效果CSS(可选)-->
+		<link rel="stylesheet" href="typing/typing.css">
+		<!--引入typing.js，核心文件-->
+		<script src="typing/typing.js"></script>
+		<title>typing</title>
+	</head>
+	<style>
+		.row {
+			margin-top: 12px;
+		}
+		
+		.keyword {
+			color: #3ffc19;
+		}
+		
+		.string {
+			color: #f2ea0e;
+		}
+		
+		.info {
+			color: #ff4242;
+		}
+		
+		.func {
+			color: #5988ff;
+		}
+		
+		#source,
+		#output-wrap {
+			height: 700px;
+			background: #282828;
+			color: #fff;
+			padding: 20px;
+			font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+			font-size: 18px;
+			line-height: 26px;
+		}
+	</style>
+	<style>
+		pre {
+			padding: 0px;
+			font-size: 8pt;
+			letter-spacing: 4px;
+			line-height: 8pt;
+			font-weight: bold;
+			max-width: 260px;
+			overflow-x: visible;
+			overflow-y: visible;
+			background: white;
+		}
+	</style>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 page-return">
+					<a href="index.html" class="btn btn-info">返回首页</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6" hidden="hidden">
+					<div id="source">
+						<!--<span class="keyword">
+							Some unseen fingers, 
+						</span>
+						<br>
+						<span class="keyword">
+							like an idle breeze, 
+						</span>
+						<br>
+						<span class="keyword">
+							are playing upon my heart the music of the ripples.
+						</span>
+						<br>
+						<span class="func">
+							有些看不见的手，如懒懒的微风吹过，正在我的心上奏着潺潺的乐声。
+						</span>
+						<br> -------------------------<br>
+						<span class="keyword">
+							Sorrow is hushed into peace in my heart like the evening among the silent trees.
+						</span>
+						<br>
+						<span class="func">
+							忧思在我的心里平静下去，正如暮色降临在寂静的山林中。
+						</span>
+						<br> -----------------------<br>-->
+						<pre id="convertd">
+
+							<!--; <br /> # # # <br /> # # # <br /> G # # # <br /> t# <br /> ################ <br /> #G # #. ## <br /> EK # # # # # <br /> # # # # # DW <br /> # ##f ## # <br /> #####################t <br /> # # # L# <br /> #j .W # # <br /> # # E # <br /> K # # # # <br /> j###j # f # #. <br /> j # # L Ei <br /> jG # # # <br /> #f ; # # ;##i <br /> ; # # # # <br /> ## ## <br /> ###. <br /> ;#W j
+-->
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#fdfdfd">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#000000">2</span><span style="color:#fafafa">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#000000">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#010101">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#020202">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#000000">1</span><span style="color:#fefefe">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span><span style="color:#fafafa">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#020202">5</span><span style="color:#fefefe">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#000000">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#090909">5</span><span style="color:#000000">2</span><span style="color:#000000">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#000000">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#000000">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#000000">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#000000">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#000000">5</span><span style="color:#8a8a8a">2</span><span style="color:#e0e0e0">1</span><span style="color:#fdfdfd">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#4a4a4a">5</span><span style="color:#939393">2</span><span style="color:#ffffff">1</span><span style="color:#000000">5</span><span style="color:#777777">2</span><span style="color:#fefefe">1</span><span style="color:#fefefe">5</span><span style="color:#fdfdfd">2</span><span style="color:#fbfbfb">1</span><span style="color:#000000">5</span><span style="color:#000000">2</span><span style="color:#fdfdfd">1</span>
+<span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#030303">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#fcfcfc">1</span><span style="color:#000000">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fdfdfd">5</span><span style="color:#000000">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#020202">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span>
+<span style="color:#ffffff">5</span><span style="color:#464646">2</span><span style="color:#f6f6f6">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#000000">5</span><span style="color:#fdfdfd">2</span><span style="color:#020202">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#fdfdfd">2</span><span style="color:#020202">1</span><span style="color:#ffffff">5</span><span style="color:#010101">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#818181">1</span><span style="color:#070707">5</span>
+<span style="color:#fefefe">5</span><span style="color:#010101">2</span><span style="color:#1e1e1e">1</span><span style="color:#1d1d1d">5</span><span style="color:#1d1d1d">2</span><span style="color:#202020">1</span><span style="color:#000000">5</span><span style="color:#010101">2</span><span style="color:#1d1d1d">1</span><span style="color:#1d1d1d">5</span><span style="color:#1d1d1d">2</span><span style="color:#1d1d1d">1</span><span style="color:#1d1d1d">5</span><span style="color:#1d1d1d">2</span><span style="color:#1b1b1b">1</span><span style="color:#000000">5</span><span style="color:#020202">2</span><span style="color:#1a1a1a">1</span><span style="color:#1d1d1d">5</span><span style="color:#1d1d1d">2</span><span style="color:#1d1d1d">1</span><span style="color:#050505">5</span>
+<span style="color:#fefefe">5</span><span style="color:#040404">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#040404">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#fdfdfd">1</span><span style="color:#010101">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#010101">5</span>
+<span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#010101">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#fdfdfd">1</span><span style="color:#000000">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span>
+<span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#b6b6b6">1</span><span style="color:#000000">5</span><span style="color:#fefefe">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#262626">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#b4b4b4">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#030303">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#909090">5</span><span style="color:#262626">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#020202">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#ffffff">1</span><span style="color:#2f2f2f">5</span><span style="color:#979797">2</span><span style="color:#fbfbfb">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#000000">2</span><span style="color:#fafafa">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span><span style="color:#ffffff">5</span><span style="color:#fefefe">2</span><span style="color:#fdfdfd">1</span><span style="color:#000000">5</span><span style="color:#fdfdfd">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#000000">1</span><span style="color:#ffffff">5</span><span style="color:#fbfbfb">2</span><span style="color:#fefefe">1</span><span style="color:#7a7a7a">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#9e9e9e">2</span><span style="color:#fefefe">1</span><span style="color:#fefefe">5</span><span style="color:#fefefe">2</span><span style="color:#000000">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#030303">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#010101">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#020202">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#000000">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#010101">2</span><span style="color:#fcfcfc">1</span><span style="color:#000000">5</span><span style="color:#fefefe">2</span><span style="color:#ffffff">1</span><span style="color:#fefefe">5</span><span style="color:#030303">2</span><span style="color:#ffffff">1</span><span style="color:#060606">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#d4d4d4">2</span><span style="color:#000000">1</span><span style="color:#fefefe">5</span><span style="color:#cecece">2</span><span style="color:#fefefe">1</span><span style="color:#010101">5</span><span style="color:#ffffff">2</span><span style="color:#020202">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#fdfdfd">2</span><span style="color:#000000">1</span><span style="color:#f4f4f4">5</span><span style="color:#020202">2</span><span style="color:#fdfdfd">1</span><span style="color:#030303">5</span><span style="color:#eeeeee">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#000000">5</span><span style="color:#020202">2</span><span style="color:#fcfcfc">1</span><span style="color:#0e0e0e">5</span><span style="color:#000000">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#030303">2</span><span style="color:#000000">1</span><span style="color:#010101">5</span><span style="color:#ffffff">2</span><span style="color:#fefefe">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#010101">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+<span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span><span style="color:#ffffff">5</span><span style="color:#ffffff">2</span><span style="color:#ffffff">1</span>
+</pre>
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="output-wrap">
+						<span id="output"></span>
+						<span class="typing-cursor-white">|</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		var typing = new Typing({
+			source: document.getElementById('source'),
+			output: document.getElementById('output'),
+			delay: 8,
+			done: function() {} //完成打印后的回调事件
+		});
+		typing.start();
+	</script>
+
+</html>

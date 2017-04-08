@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<!-- 可选的 Bootstrap 主题文件（一般不用引入） -->
+		<!--<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">-->
+		<!--引入鼠标闪烁效果CSS(可选)-->
+		<link rel="stylesheet" href="typing/typing.css">
+		<!--引入typing.js，核心文件-->
+		<script src="typing/typing.js"></script>
+		<title>typing</title>
+	</head>
+	<style>
+		.row {
+			margin-top: 12px;
+		}
+		
+		.keyword {
+			color: #3ffc19;
+		}
+		
+		.string {
+			color: #f2ea0e;
+		}
+		
+		.info {
+			color: #ff4242;
+		}
+		
+		.func {
+			color: #5988ff;
+		}
+		
+		#source,
+		#output-wrap {
+			height: 700px;
+			background: #282828;
+			color: #fff;
+			padding: 20px;
+			font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+			font-size: 18px;
+			line-height: 26px;
+		}
+	</style>
+	<style>
+		pre {
+			padding: 0px;
+			font-size: 8pt;
+			letter-spacing: 4px;
+			line-height: 8pt;
+			font-weight: bold;
+			max-width: 260px;
+			overflow-x:visible;
+			overflow-y:visible;
+			background: white;
+		}
+	</style>
+
+	<body>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12 page-return">
+					<a href="index.html" class="btn btn-info">返回首页</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6" hidden="hidden">
+					<div id="source">
+						<!--<span class="keyword">
+							Some unseen fingers, 
+						</span>
+						<br>
+						<span class="keyword">
+							like an idle breeze, 
+						</span>
+						<br>
+						<span class="keyword">
+							are playing upon my heart the music of the ripples.
+						</span>
+						<br>
+						<span class="func">
+							有些看不见的手，如懒懒的微风吹过，正在我的心上奏着潺潺的乐声。
+						</span>
+						<br> -------------------------<br>
+						<span class="keyword">
+							Sorrow is hushed into peace in my heart like the evening among the silent trees.
+						</span>
+						<br>
+						<span class="func">
+							忧思在我的心里平静下去，正如暮色降临在寂静的山林中。
+						</span>-->
+						<br> -----------------------<br>
+						
+					</div>
+				</div>
+				<div class="col-lg-6 col-lg-offset-3">
+					<div id="output-wrap">
+						<span id="output"></span>
+						<span class="typing-cursor-white">|</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+		var typing = new Typing({
+			source: document.getElementById('source'),
+			output: document.getElementById('output'),
+			delay: 8,
+			done: function() {
+				whileLove();
+			} //完成打印后的回调事件
+		});
+		typing.start();
+
+		function whileLove() {
+			
+
+		}
+	</script>
+
+</html>
