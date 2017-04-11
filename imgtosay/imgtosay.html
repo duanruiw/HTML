@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--  -->
+<META http-equiv="X-UA-Compatible" content="IE=edge" > </META>
+  </head>
+  <body>
+	<div id="img" align="center">
+    </div>
+  </body>
+	<script type="text/javascript">
+    window.onload = function () {
+
+        var bodyBgs = [];
+        for (var i = 1; i < 45; i++) {
+            bodyBgs[i] = "http://2w.ayshuaiyu.com/bg/" + i + ".png";
+            bodyBgs[i] = "./" + i + ".png";
+            var html = document.getElementById("img").innerHTML;
+            var appendHtml='<img  src='+bodyBgs[i]+' width=100%  style="min-width:320px; max-width:600px;" >'+'<hr>'+'<div align="center" style="margin-top:3em;">';
+            document.getElementById("img").innerHTML = html + appendHtml;
+        }
+      /*  var randomBgIndex = Math.round(Math.random() * 44);
+        var appendHtml='<img  src='+bodyBgs[randomBgIndex]+' width=100%  style="min-width:320px; max-width:600px;" >'+'<div align="center" style="margin-top:3em;">';
+        document.getElementById("img").innerHTML = appendHtml;*/
+    };
+</script>
+</html>
